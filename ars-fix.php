@@ -12,12 +12,15 @@ Text Domain: ars-fix-plugin
 */
 
 function add_css() {
-    wp_enqueue_style('ars-fix-style', plugin_dir_url(__FILE__) . 'ars-fix.css');
+    wp_enqueue_style('ars-fix-style', plugin_dir_url(__FILE__) . '/assets/ars-fix.css');
 }
 add_action('wp_head', 'add_css');
 
 function add_js() {
-    wp_enqueue_script('ars-fix-script', plugin_dir_url(__FILE__) . 'ars-fix.js');
+    wp_enqueue_script('ars-fix-script', plugin_dir_url(__FILE__) . '/assets/ars-fix.js');
 }
 add_action('wp_head', 'add_js');
 
+require_once plugin_dir_path(__FILE__) . '/inc/ars-fix-functions.php';
+
+?>

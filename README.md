@@ -47,6 +47,10 @@ To install this project, follow these steps:
 8. Click on Install Now
 9. Search for the plugin 'ars-fix' and Click on Activate
 
+### 🛠️ Usage
+
+Edit ars-fix.css and ars-fix.js files for a desired effects.
+
 ### 🧪 Running tests
 
 There is no tests for this project.

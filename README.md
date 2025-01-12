@@ -3,7 +3,7 @@
 ![Eco Status](https://img.shields.io/badge/ECO-Friendly-green.svg)
 [![Discord](https://discord.com/api/guilds/571393319201144843/widget.png)](https://discord.gg/dRwW4rw)
 
-# Wordpress plugin to insert cutom CSS and JS code
+# Wordpress plugin to insert cutom CSS, JS and PHP code
 
 _Tools to improve wordpress websites_
 
@@ -11,7 +11,7 @@ _Tools to improve wordpress websites_
 
 ## 🌟 About
 
-It's a small Wordpress plugin. It allows you to insert custom CSS and JS code to a Wordpress blog without modifying the theme.
+It's a small Wordpress plugin. It allows you to insert custom CSS, PHP and JS code to a Wordpress blog without modifying the theme or creating a child theme.
 
 This is a part of my Wordpress Tools Set.
 
@@ -38,7 +38,7 @@ Access to Wordpress admin panel.
 
 To install this project, follow these steps:
 
-1. Download the repository
+1. Download the repository from [https://api.github.com/repos/madrakas/ars-fix/releases/latest](https://api.github.com/repos/madrakas/ars-fix/releases/latest)
 2. Open Wordpress admin panel
 3. Click on Plugins
 4. Click on Add New
@@ -50,8 +50,8 @@ To install this project, follow these steps:
 
 ### 🛠️ Usage
 
-Edit ars-fix.css and ars-fix.js files in assets folder for a desired effects.
-Edit ars-fix.php file in inc folder for a desired effects.
+Edit /assets/ars-fix.css and /assets/ars-fix.js files in assets folder for a desired effects.
+Edit /inc/ars-fix.php file in inc folder for a desired effects.
 
 ### 🧪 Running tests
 

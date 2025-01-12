@@ -23,6 +23,7 @@ This is a part of my Wordpress Tools Set.
 *   This plugin allows you to insert custom CSS and JS code to a Wordpress blog without modifying the theme.:
     *   Custom CSS
     *   Custom JS
+    *   Custom PHP
     *   More Features incomming
 *   Plugin is not yet updatable
 
@@ -49,7 +50,8 @@ To install this project, follow these steps:
 
 ### 🛠️ Usage
 
-Edit ars-fix.css and ars-fix.js files for a desired effects.
+Edit ars-fix.css and ars-fix.js files in assets folder for a desired effects.
+Edit ars-fix.php file in inc folder for a desired effects.
 
 ### 🧪 Running tests
 
